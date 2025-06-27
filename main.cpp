@@ -33,5 +33,6 @@ int sum(int x) {
 
 int main()
 {        
+    std::cout<<"Hello world";
     return 0;
 }
