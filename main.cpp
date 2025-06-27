@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 
 #include <vector>
+#include <cassert>
 
 using namespace std;
 
@@ -31,9 +32,7 @@ int sum(int x) {
 }
 
 int main()
-{
-    std::cout<<"Hello World";
-    
+{    
     vector<int> v = {1,2,3,4};
     auto result = map (v, sum);
     
@@ -42,6 +41,5 @@ int main()
         std::cout<<item<<std::endl;
     }
     
-
     return 0;
 }
