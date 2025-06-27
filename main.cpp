@@ -32,14 +32,6 @@ int sum(int x) {
 }
 
 int main()
-{    
-    vector<int> v = {1,2,3,4};
-    auto result = map (v, sum);
-    
-    for (auto item : result)
-    {
-        std::cout<<item<<std::endl;
-    }
-    
+{        
     return 0;
 }
